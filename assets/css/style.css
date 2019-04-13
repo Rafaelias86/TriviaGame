@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    background: url("../images/backg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-header{
+    padding: 0px;
+    padding-bottom: 10px;
+    font-family: 'Nanum Gothic Coding', monospace;
+    text-align: center;
+    color: rgba(0, 255, 0, 0.3);
+    /* border: 5px solid RGB(255, 1, 1); */
+    background-color:black;
+    
+}
+ .card-header h1{
+    vertical-align: top;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    color:black;
+    text-align: center;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-weight: 900;
+    font-style: italic;
+   
+}  
+#main {
+    padding:10px;
+    margin: 10px auto;
+    background-color:rgba(0, 255, 0, 0.3);
+
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    height: 750px;
+    width: 60%;
+    text-align: center;
+    
+}
+#start {
+    background-color:#38eb1d;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-size:28px;
+	font-weight:bolder;
+	padding:32px 76px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    position:absolute;
+    top:330px; 
+    left:850px; 
+}
+span{
+    font-size: 35px;
+    font-family: 'Nanum Gothic Coding', monospace;
+    color:white;
+    animation: blink 1s linear infinite;
+}
+@keyframes blink{
+    0%{opacity: 0;}
+    50%{opacity: .5;}
+    100%{opacity: 1;}
+}
+#correct{
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 45px;
+    color:rgb(28, 122, 28);
+    font-weight: 900;
+
+}
+#wrong{
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 35px;
+    color:red;
+    font-weight: 900;
+
+}
+#answerblock{
+    font-size: 25px;
+    color:black;
+    text-align: center;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-weight: 250;
+    font-style: italic;
+}
+.answerchoice{
+    border: 1px solid black;
+    border-radius: 5%;
+    width: 50%;
+    color: black;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 25px;
+    background-color: white;
+}
+#timeLeft{
+    color: red;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+#unanswered{
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 25px;
+    color:red;
+    font-weight: 900;  
+}
+
